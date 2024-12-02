@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+    <div class="container">
+        <h1>Test</h1>
+        <p>Name/Value Pair </p>
+        <div class="input-container">
+            <input type="text" id="input-textbox" placeholder="Enter name/value pair">
+            <button onclick="addNameV()">Add</button>
+            
+        </div>
+        <div class="button-container">
+            <button onclick="sortByNames()">Sort by Name</button>
+            <button onclick="sortByValues()">Sort by Value</button>
+            <button onclick="deleteSelectedValues()">Delete</button>
+            <button onclick="showAsXml()">Show as XML</button>
+        </div>
+        <p>Name/Value Pair List</p>
+            <div id="valuesList"></div>
+        <div id="xml-display"></div>
+    </div>
+    <script src="Test.js"></script>
+  </body>
+  </html>
